@@ -23,7 +23,7 @@ The script will introduce itself (version number, a quick rundown on usage), and
     Some valid interesting (lucrative) Lua tiles are:
         IntAgility.level	= Play the Organ. (Agility Drift). 
         IntStealth.level	= Avoid the Lasers. (Stealth Drift)
-        IntPower.level	= Charge the Orbs. (Power Drift)
+        IntPower.level	  = Charge the Orbs. (Power Drift)
         IntOperaHouse.level	= Game of Simon. (Octavia Chassis, random Rare Crate)
         IntSpeed.level	= Beat the course. (Speed Drift)
         IntCooperation.level	= Cooperate with one or more players. (Coaction Drift)
