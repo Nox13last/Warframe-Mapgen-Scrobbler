@@ -21,19 +21,19 @@ The script will introduce itself (version number, a quick rundown on usage), and
 ```
 <# Replace the $filter arguments with any room you're looking for. To look for multiple rooms, seperate them with a pipe character (|) and no space.
     Some valid interesting (lucrative) Lua tiles are:
-        IntAgility.level			=		Play the Organ. (Agility Drift). 
-        IntStealth.level			=		Avoid the Lasers. (Stealth Drift)
-        IntPower.level				=		Charge the Orbs. (Power Drift)
-        IntOperaHouse.level		=		Game of Simon. (Octavia Chassis, random Rare Crate)
-        IntSpeed.level				=		Beat the course. (Speed Drift)
-        IntCooperation.level	=		Cooperate with one or more players. (Coaction Drift)
-        IntCunning.level			=		Outwit the SecurEye. (Cunning Drift).
-        IntCloister.level			=		Charge the Arboriform (does not necessarily award prizes)
+        IntAgility.level	= Play the Organ. (Agility Drift). 
+        IntStealth.level	= Avoid the Lasers. (Stealth Drift)
+        IntPower.level	= Charge the Orbs. (Power Drift)
+        IntOperaHouse.level	= Game of Simon. (Octavia Chassis, random Rare Crate)
+        IntSpeed.level	= Beat the course. (Speed Drift)
+        IntCooperation.level	= Cooperate with one or more players. (Coaction Drift)
+        IntCunning.level	= Outwit the SecurEye. (Cunning Drift).
+        IntCloister.level	= Charge the Arboriform (does not necessarily award prizes)
 
     Interesting tiles, Murmur Edition:
-        IntOctopedeHourglass.level	=		Zelator - Curse of Hearing
-        IntOctopedeArena06.level		=		Anchorite - Curse of Seeing
-        IntOctopedeArena.level			=		Suzerain - Curse of Knowing
+        IntOctopedeHourglass.level	= Zelator - Curse of Hearing
+        IntOctopedeArena06.level	= Anchorite - Curse of Seeing
+        IntOctopedeArena.level	= Suzerain - Curse of Knowing
         
     Interesting Objects (Those found by Orokin Eye and Golden Instinct):
         /Lotus/Types/Items/FusionTreasures/FusionTreasure     =   A subset of 'Ayatan Sculpture' items.         
