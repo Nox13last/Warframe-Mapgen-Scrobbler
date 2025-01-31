@@ -41,8 +41,7 @@ The script will introduce itself (version number, a quick rundown on usage), and
 #        The example below looks for the Simon puzzle, the Speed puzzle, and the Power puzzle.#>
 
 # $filter = "ADDITIONAL FILTERS HERE DEMARKATED BY PIPES|IntOperaHouse.level|IntSpeed.level|IntPower.level"
-```
-```
+``` ```
 $filter = "I'm not looking for anything right now."
 ```
 
@@ -55,7 +54,7 @@ If the script says that it has finished, but it hasn't found anything, then you 
 * Turns out, Lotus does a lot of "ignore your original objective" bullshittery when you're going through motions. What could be an easy Lua Capture (knock a dude out, then go and find your booty) can very quickly turn into a sloggy Exterminate mission.
 * The script will find Ayatan Sculptures as well. While there are easily more optimal ways to do it (such as [TheKengineer's method](https://www.youtube.com/watch?v=LiQWHsgTRB8), which I recommend in general), it's a good incidental bonus.
 
-  ## Again for those of you in the back:
-  **This will not tell you WHERE a thing is.** It will not say how many rooms away it is. It will not put a waypoint down for you. And it won't navigate you to it. This is entirely to tell you if the mission you embarked on two seconds ago has what you're looking for. This is a max-range Golden Instinct, but without the near-useless mote that dies before it can point in anything vaguely resembling the right direction.
+## Again for those of you in the back:
+**This will not tell you WHERE a thing is.** It will not say how many rooms away it is. It will not put a waypoint down for you. And it won't navigate you to it. This is entirely to tell you if the mission you embarked on two seconds ago has what you're looking for. This is a max-range Golden Instinct, but without the near-useless mote that dies before it can point in anything vaguely resembling the right direction.
 
   Also, don't @ me. This code is bad and I know it. It was formerly for private use.
