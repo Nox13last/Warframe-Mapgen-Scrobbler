@@ -58,3 +58,5 @@
 ### 0.72  
   Added support for Ayatan Sculptures.  
     It pings three times. Need to figure that out.  
+### 0.73
+  Removed TODO, as it is now its own page.  
