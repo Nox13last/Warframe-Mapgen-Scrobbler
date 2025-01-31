@@ -33,7 +33,7 @@ The script will introduce itself (version number, a quick rundown on usage), and
     Interesting tiles, Murmur Edition:
         IntOctopedeHourglass.level	= Zelator - Curse of Hearing
         IntOctopedeArena06.level	= Anchorite - Curse of Seeing
-        IntOctopedeArena.level	= Suzerain - Curse of Knowing
+        IntOctopedeArena.level		= Suzerain - Curse of Knowing
         
     Interesting Objects (Those found by Orokin Eye and Golden Instinct):
         /Lotus/Types/Items/FusionTreasures/FusionTreasure     =   A subset of 'Ayatan Sculpture' items.         
