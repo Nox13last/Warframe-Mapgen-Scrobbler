@@ -41,7 +41,8 @@ The script will introduce itself (version number, a quick rundown on usage), and
 #        The example below looks for the Simon puzzle, the Speed puzzle, and the Power puzzle.#>
 
 # $filter = "ADDITIONAL FILTERS HERE DEMARKATED BY PIPES|IntOperaHouse.level|IntSpeed.level|IntPower.level"
-``` ```
+```
+```
 $filter = "I'm not looking for anything right now."
 ```
 
