@@ -45,7 +45,7 @@
   Search parameters are now displayed persistently!  
   Changed introduction as it's not a given that the player is using default settings.  
 ### 0.54  
-  Reverted v0.52. Turns out variables don't update when called as part of other variables ('";Get-Stats' would not change when its parts incremented, so all statistics stayed at zero.  
+  Reverted v0.52. Turns out variables don't update when called as part of other variables ('";Get-Stats' would not change when its parts incremented, so all statistics stayed at zero.)  
 ### 0.55  
   Fixed that?  
 ### 0.60  
