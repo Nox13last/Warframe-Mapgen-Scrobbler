@@ -4,7 +4,8 @@
 * Consider making a version that says things instead of beeping. But the Windows TTS is so boring.  
 * Consider changing the script extension - see if there's one that defaults the double-click invoke action to execute the script, rather than open it in an editor.  
 * Consider asking the user if we want to keep the console tidy, or if we want to let the messages survive when they become obsolete.  
-* Consider a function to reload the script if the user changes the search parameters.  
+* Consider a function to reload the script if the user changes the search parameters.
+* Fix the "keep screen on top" function.
 
 ## Changelog:
 ### 0.1  
@@ -60,3 +61,6 @@
     It pings three times. Need to figure that out.  
 ### 0.73
   Removed TODO, as it is now its own page.  
+### 0.9
+  Added a list for user to select one or more criteria. For the sake of ethical programming, I have to say that ChatGPT assembled and enumerated the list. The actual search engine is still mine, which is why it is an incomprehensible mess.
+  At some point, the "keep windows on top" function and the function for setting the size of the window seem to have broken.
