@@ -1,5 +1,5 @@
 # Warframe-Mapgen-Scrobbler  
-Look for a specific tile or object on mapgen. Ping when it happens. The code is cobbled together with spit and tape, and ~~I can't even blame ChatGPT for making it. This was between me and the shadows of StackExchange.~~ ChatGPT handled the selection UI.
+Look for a specific tile or object on mapgen. Ping when it happens. The code is cobbled together with spit and tape, ~~and I can't even blame ChatGPT for making it. This was between me and the shadows of StackExchange.~~ ChatGPT handled the selection UI.
   
 Throughout its entire execution, Warframe is constantly adding to a debug log known as *[EE.log.](https://warframe.fandom.com/wiki/EE.log)*. It's information that *generally* shouldn't be in the hands of players or any entities external to Digital Extremes. But as long as it's here, we might as well eat it. And smarter people than me have been sifting through it for years. For instance, [Semlar's Death Log Parser](https://semlar.com/deathlog) is for figuring out how someone died, by looking through your log. You can replicate this functionality, too, by just opening the log, searching for "was killed by", and pressing 'Previous'.  
 But this trio of raccoons masquerading as a Powershell Script is interested in mapgen, and a few other things.  
@@ -17,7 +17,7 @@ Right-click the script file and select **Run with Powershell**.
 
 The script will introduce itself (version number, a quick rundown on usage). It will ask you what you want to look for, and you select them by entering a comma-seperated list of numbers.
 
-The script will say it's waiting, but if you want to make sure it's working, then type the phrase "**Wake up!**" in a chat (Squad Chat works fine, even if you're alone). *EE.log* doesn't update *very* promptly, but tends to do so when you examine the System Map. To begin, load up a mission that you think contains the thing you're looking for The game will have finished generating a map before the loading screen is even done. At that point, the script will either beep that it has found something, or say that it has finished looking. If it gets a hit (it beeps), proceed through the mission as normal, get what it is you came for, and then leave.  
+The script will say it's waiting, but if you want to make sure it's working, then type the phrase "**Wake up!**" in a chat (Squad Chat works fine, even if you're alone). *EE.log* doesn't update *very* promptly, but tends to do so when you examine the System Map. To begin, load up a mission that you think contains the thing you're looking for. The game will have finished generating a map before the loading screen is even done. At that point, the script will either beep that it has found something, or say that it has finished looking. If it gets a hit (it beeps), proceed through the mission as normal, get what it is you came for, and then leave.  
 If the script says that it has finished, but it hasn't found anything, then you quit back to Orbiter, and press "Repeat Last Mission" on the "Mission Failed" screen. Repeat.  
 
 ## Bonuses  
